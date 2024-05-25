@@ -988,6 +988,7 @@ p {
     right: 150px !important;
     border-radius: 20px !important;
     bottom: 2rem !important;
+    z-index: 10;
 }
 
 .modal-title {
@@ -1176,7 +1177,7 @@ footer {
     font-size: 20px;
     padding: 3rem 2rem;
     color: white;
-    z-index: 9999;
+    z-index: 5;
     position: relative;
 }
 
@@ -1186,6 +1187,7 @@ footer a {
 
 footer strong {
     color: #EB54C5;
+
 }
 
 ::-webkit-scrollbar{
