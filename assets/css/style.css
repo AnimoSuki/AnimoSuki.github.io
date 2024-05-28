@@ -640,8 +640,7 @@ p {
 .portfolio11 h4,
 .portfolio12 h4,
 .portfolio13 h4,
-.portfolio14 h4,
-.portfolio15 h4 {
+.portfolio14 h4 {
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 700;
     background: linear-gradient(#1F8EFA, #EB54C5);
@@ -699,6 +698,12 @@ p {
 }
 
 #upright-arrow2, #upright-arrow4 {
+    position: relative;
+    left: 144%;
+    bottom: 66px;
+}
+
+#upright-arrow5, #upright-arrow6 {
     position: relative;
     left: 145%;
     bottom: 66px;
@@ -1522,7 +1527,7 @@ footer strong {
     #upright-arrow4 {
         left: 127.5%;
     }
-
+    
     /* Client Talking */
 
     #client-talking {
