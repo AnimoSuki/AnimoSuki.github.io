@@ -709,13 +709,17 @@ p {
     bottom: 66px;
 }
 
+#upright-arrow5 {
+    left: 144%;
+}
+
 #circle, #circle3 {
     position: relative;
     left: 95%;
     bottom: 66px;
 }
 
-#circle2, #circle4 {
+#circle2, #circle4, #circle5 {
     position: relative;
     left: 125%;
     bottom: 66px;
@@ -1496,8 +1500,12 @@ footer strong {
         width: auto;
     }
 
+    .column2 {
+        margin-left: 5%;
+    }
+
     #upright-arrow {
-        left: 107%;
+        left: 105%;
     }
 
     .carousel-indicators {
@@ -1509,11 +1517,19 @@ footer strong {
     }
 
     #circle {
-        left: 92%;
+        left: 90%;
+    }
+
+    #circle2 {
+        left: 120%;
     }
 
     #circle4 {
         left: 108%;
+    }
+
+    #circle5 {
+        left: 110%;
     }
 
     #circle3 {
@@ -1527,7 +1543,15 @@ footer strong {
     #upright-arrow4 {
         left: 127.5%;
     }
-    
+
+    #upright-arrow5 {
+        left: 129%;
+    }
+
+    #upright-arrow6 {
+        left: 141%;
+    }
+
     /* Client Talking */
 
     #client-talking {
